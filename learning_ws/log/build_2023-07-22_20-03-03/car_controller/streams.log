@@ -1,0 +1,33 @@
+[1.143s] Invoking command in '/home/dyj/learning_ws/src/car_controller': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed
+[1.335s] running egg_info
+[1.335s] writing ../../build/car_controller/car_controller.egg-info/PKG-INFO
+[1.335s] writing dependency_links to ../../build/car_controller/car_controller.egg-info/dependency_links.txt
+[1.335s] writing entry points to ../../build/car_controller/car_controller.egg-info/entry_points.txt
+[1.336s] writing requirements to ../../build/car_controller/car_controller.egg-info/requires.txt
+[1.336s] writing top-level names to ../../build/car_controller/car_controller.egg-info/top_level.txt
+[1.338s] reading manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+[1.339s] writing manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+[1.339s] running build
+[1.339s] running build_py
+[1.340s] copying car_controller/car_navigate_one_position.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.341s] running install
+[1.341s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.341s]   warnings.warn(
+[1.341s] running install_lib
+[1.342s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_navigate_one_position.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.343s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_navigate_one_position.py to car_navigate_one_position.cpython-310.pyc
+[1.344s] running install_data
+[1.345s] creating /home/dyj/learning_ws/install/car_controller/share/car_controller/launch
+[1.348s] copying launch/car_navigate.launch.py -> /home/dyj/learning_ws/install/car_controller/share/car_controller/launch
+[1.348s] running install_egg_info
+[1.349s] removing '/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.349s] Copying ../../build/car_controller/car_controller.egg-info to /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller-0.0.0-py3.10.egg-info
+[1.349s] running install_scripts
+[1.370s] Installing car_move_circle script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.370s] Installing car_move_square_try_1 script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.370s] Installing car_move_straight script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.371s] Installing car_navigate_one_position script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.371s] Installing car_navigate_tf_broadcaster script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.371s] Installing target_position_tf_broadcaster script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.372s] writing list of installed files to '/home/dyj/learning_ws/build/car_controller/install.log'
+[1.399s] Invoked command in '/home/dyj/learning_ws/src/car_controller' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed

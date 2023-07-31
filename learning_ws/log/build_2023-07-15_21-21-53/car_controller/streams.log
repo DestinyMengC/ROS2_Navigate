@@ -1,0 +1,60 @@
+[1.318s] Invoking command in '/home/dyj/learning_ws/src/car_controller': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed
+[1.588s] running egg_info
+[1.589s] creating ../../build/car_controller/car_controller.egg-info
+[1.589s] writing ../../build/car_controller/car_controller.egg-info/PKG-INFO
+[1.589s] writing dependency_links to ../../build/car_controller/car_controller.egg-info/dependency_links.txt
+[1.589s] writing entry points to ../../build/car_controller/car_controller.egg-info/entry_points.txt
+[1.589s] writing requirements to ../../build/car_controller/car_controller.egg-info/requires.txt
+[1.589s] writing top-level names to ../../build/car_controller/car_controller.egg-info/top_level.txt
+[1.590s] writing manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+[1.592s] reading manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+[1.593s] running build
+[1.594s] running build_py
+[1.594s] creating /home/dyj/learning_ws/build/car_controller/build
+[1.594s] creating /home/dyj/learning_ws/build/car_controller/build/lib
+[1.594s] creating /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.594s] copying car_controller/car_move_square_try_2.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.594s] copying car_controller/try.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.596s] copying car_controller/car_change_direction_1.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.596s] copying car_controller/car_move_square_try_1.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.596s] copying car_controller/car_change_direction_2.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.597s] copying car_controller/car_move_square_try_3.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.597s] copying car_controller/car_move_straight.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.597s] copying car_controller/car_move_circle.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.598s] copying car_controller/__init__.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+[1.598s] running install
+[1.599s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.599s]   warnings.warn(
+[1.600s] running install_lib
+[1.602s] creating /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.603s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_2.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/try.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_change_direction_1.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_1.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_change_direction_2.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_3.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_straight.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_circle.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.604s] copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/__init__.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+[1.605s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_2.py to car_move_square_try_2.cpython-310.pyc
+[1.606s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/try.py to try.cpython-310.pyc
+[1.607s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_change_direction_1.py to car_change_direction_1.cpython-310.pyc
+[1.607s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_1.py to car_move_square_try_1.cpython-310.pyc
+[1.608s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_change_direction_2.py to car_change_direction_2.cpython-310.pyc
+[1.609s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_3.py to car_move_square_try_3.cpython-310.pyc
+[1.609s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_straight.py to car_move_straight.cpython-310.pyc
+[1.610s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_circle.py to car_move_circle.cpython-310.pyc
+[1.611s] byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/__init__.py to __init__.cpython-310.pyc
+[1.611s] running install_data
+[1.612s] creating /home/dyj/learning_ws/install/car_controller/share/ament_index
+[1.612s] creating /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index
+[1.612s] creating /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index/packages
+[1.612s] copying resource/car_controller -> /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index/packages
+[1.612s] copying package.xml -> /home/dyj/learning_ws/install/car_controller/share/car_controller
+[1.612s] running install_egg_info
+[1.614s] Copying ../../build/car_controller/car_controller.egg-info to /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller-0.0.0-py3.10.egg-info
+[1.615s] running install_scripts
+[1.649s] Installing car_move_square_try_1 script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+[1.650s] writing list of installed files to '/home/dyj/learning_ws/build/car_controller/install.log'
+[1.740s] Invoked command in '/home/dyj/learning_ws/src/car_controller' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed

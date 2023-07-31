@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': /usr/bin/cmake /home/dyj/learning_ws/src/navigate_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyj/learning_ws/install/navigate_interfaces
+[0.023s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.321s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.321s]   navigate_interfaces --arguments-file
+[0.321s]   /home/dyj/learning_ws/build/navigate_interfaces/rosidl_adapter__arguments__navigate_interfaces.json
+[0.321s]   --output-dir
+[0.321s]   /home/dyj/learning_ws/build/navigate_interfaces/rosidl_adapter/navigate_interfaces
+[0.321s]   --output-file
+[0.321s]   /home/dyj/learning_ws/build/navigate_interfaces/rosidl_adapter/navigate_interfaces.idls)
+[0.321s]   returned error code 1:
+[0.321s] 
+[0.321s]   Traceback (most recent call last):
+[0.321s] 
+[0.321s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.321s]       return _run_code(code, main_globals, None,
+[0.321s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.322s]       exec(code, run_globals)
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.322s]       sys.exit(main())
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.322s]       abs_idl_file = convert_to_idl(
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.322s]       return convert_action_to_idl(
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.322s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string
+[0.322s]       goal_message = parse_message_string(
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.322s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.322s]       self.base_type = BaseType(
+[0.322s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.322s]       raise InvalidResourceName(
+[0.322s] 
+[0.322s]   rosidl_adapter.parser.InvalidResourceName: 'car_navigate_Goal' is an
+[0.322s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.322s] 
+[0.322s] Call Stack (most recent call first):
+[0.322s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.322s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.322s] 
+[0.323s] [0m
+[0.323s] -- Configuring incomplete, errors occurred!
+[0.323s] See also "/home/dyj/learning_ws/build/navigate_interfaces/CMakeFiles/CMakeOutput.log".
+[0.328s] Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '1': /usr/bin/cmake /home/dyj/learning_ws/src/navigate_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyj/learning_ws/install/navigate_interfaces

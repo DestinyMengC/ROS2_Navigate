@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/car_navigate/car_navigate.egg-info
+writing ../../build/car_navigate/car_navigate.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_navigate/car_navigate.egg-info/dependency_links.txt
+writing entry points to ../../build/car_navigate/car_navigate.egg-info/entry_points.txt
+writing requirements to ../../build/car_navigate/car_navigate.egg-info/requires.txt
+writing top-level names to ../../build/car_navigate/car_navigate.egg-info/top_level.txt
+writing manifest file '../../build/car_navigate/car_navigate.egg-info/SOURCES.txt'
+reading manifest file '../../build/car_navigate/car_navigate.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_navigate/car_navigate.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dyj/learning_ws/build/car_navigate/build
+creating /home/dyj/learning_ws/build/car_navigate/build/lib
+creating /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate
+copying car_navigate/__init__.py -> /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate
+running install
+running install_lib
+creating /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate
+copying /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate/__init__.py -> /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate
+byte-compiling /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dyj/learning_ws/install/car_navigate/share/ament_index
+creating /home/dyj/learning_ws/install/car_navigate/share/ament_index/resource_index
+creating /home/dyj/learning_ws/install/car_navigate/share/ament_index/resource_index/packages
+copying resource/car_navigate -> /home/dyj/learning_ws/install/car_navigate/share/ament_index/resource_index/packages
+copying package.xml -> /home/dyj/learning_ws/install/car_navigate/share/car_navigate
+running install_egg_info
+Copying ../../build/car_navigate/car_navigate.egg-info to /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dyj/learning_ws/build/car_navigate/install.log'

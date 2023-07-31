@@ -1,0 +1,34 @@
+[0.670s] Invoking command in '/home/dyj/learning_ws/src/car_navigate': PYTHONPATH=/home/dyj/learning_ws/build/car_navigate/prefix_override:/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_navigate build --build-base /home/dyj/learning_ws/build/car_navigate/build install --record /home/dyj/learning_ws/build/car_navigate/install.log --single-version-externally-managed
+[0.865s] running egg_info
+[0.866s] writing ../../build/car_navigate/car_navigate.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../build/car_navigate/car_navigate.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../../build/car_navigate/car_navigate.egg-info/entry_points.txt
+[0.867s] writing requirements to ../../build/car_navigate/car_navigate.egg-info/requires.txt
+[0.868s] writing top-level names to ../../build/car_navigate/car_navigate.egg-info/top_level.txt
+[0.870s] reading manifest file '../../build/car_navigate/car_navigate.egg-info/SOURCES.txt'
+[0.871s] writing manifest file '../../build/car_navigate/car_navigate.egg-info/SOURCES.txt'
+[0.871s] running build
+[0.871s] running build_py
+[0.872s] copying car_navigate/car_navigate_one_position_client.py -> /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate
+[0.873s] copying car_navigate/car_navigate_one_position_server.py -> /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate
+[0.873s] running install
+[0.874s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.874s]   warnings.warn(
+[0.874s] running install_lib
+[0.875s] copying /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate/car_navigate_one_position_client.py -> /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate
+[0.875s] copying /home/dyj/learning_ws/build/car_navigate/build/lib/car_navigate/car_navigate_one_position_server.py -> /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate
+[0.876s] byte-compiling /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate/car_navigate_one_position_client.py to car_navigate_one_position_client.cpython-310.pyc
+[0.876s] byte-compiling /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate/car_navigate_one_position_server.py to car_navigate_one_position_server.cpython-310.pyc
+[0.877s] running install_data
+[0.877s] copying launch/car_navigate_action.launch.py -> /home/dyj/learning_ws/install/car_navigate/share/car_navigate/launch
+[0.877s] copying launch/car_navigate.launch.py -> /home/dyj/learning_ws/install/car_navigate/share/car_navigate/launch
+[0.877s] running install_egg_info
+[0.879s] removing '/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate-0.0.0-py3.10.egg-info' (and everything under it)
+[0.880s] Copying ../../build/car_navigate/car_navigate.egg-info to /home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages/car_navigate-0.0.0-py3.10.egg-info
+[0.880s] running install_scripts
+[0.897s] Installing car_navigate_one_position script to /home/dyj/learning_ws/install/car_navigate/lib/car_navigate
+[0.898s] Installing car_navigate_tf_broadcaster script to /home/dyj/learning_ws/install/car_navigate/lib/car_navigate
+[0.898s] Installing give_position_client script to /home/dyj/learning_ws/install/car_navigate/lib/car_navigate
+[0.898s] Installing target_position_tf_broadcaster_server script to /home/dyj/learning_ws/install/car_navigate/lib/car_navigate
+[0.898s] writing list of installed files to '/home/dyj/learning_ws/build/car_navigate/install.log'
+[0.923s] Invoked command in '/home/dyj/learning_ws/src/car_navigate' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/car_navigate/prefix_override:/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_navigate build --build-base /home/dyj/learning_ws/build/car_navigate/build install --record /home/dyj/learning_ws/build/car_navigate/install.log --single-version-externally-managed

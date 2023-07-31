@@ -1,0 +1,7 @@
+int64 x
+int64 y
+---
+bool finish
+---
+int64 a
+int64 b

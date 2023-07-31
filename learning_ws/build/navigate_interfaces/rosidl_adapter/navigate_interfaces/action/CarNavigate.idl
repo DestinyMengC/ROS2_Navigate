@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from navigate_interfaces/action/CarNavigate.action
+// generated code does not contain a copyright notice
+
+
+module navigate_interfaces {
+  module action {
+    struct CarNavigate_Goal {
+      boolean enable;
+    };
+    struct CarNavigate_Result {
+      boolean finish;
+    };
+    struct CarNavigate_Feedback {
+      double x;
+
+      double y;
+    };
+  };
+};

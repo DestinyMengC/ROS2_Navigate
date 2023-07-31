@@ -1,0 +1,7 @@
+{
+  "package_name": "navigate_interfaces",
+  "non_idl_tuples": [
+    "/home/dyj/learning_ws/src/navigate_interfaces:action/CarNavigate.action",
+    "/home/dyj/learning_ws/src/navigate_interfaces:srv/GivePosition.srv"
+  ]
+}

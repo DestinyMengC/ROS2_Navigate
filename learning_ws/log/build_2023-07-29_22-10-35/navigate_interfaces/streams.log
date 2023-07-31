@@ -1,0 +1,267 @@
+[0.040s] Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/dyj/learning_ws/build/navigate_interfaces -- -j4 -l4
+[0.502s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.503s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.787s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.053s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.081s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.081s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.108s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.125s] -- Added test 'lint_cmake' to check CMake code style
+[1.127s] -- Added test 'xmllint' to check XML markup files
+[1.131s] -- Configuring done
+[1.244s] -- Generating done
+[1.245s] -- Build files have been written to: /home/dyj/learning_ws/build/navigate_interfaces
+[1.279s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.336s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.413s] [  5%] Built target ament_cmake_python_copy_navigate_interfaces
+[1.814s] running egg_info
+[1.814s] writing navigate_interfaces.egg-info/PKG-INFO
+[1.815s] writing dependency_links to navigate_interfaces.egg-info/dependency_links.txt
+[1.815s] writing top-level names to navigate_interfaces.egg-info/top_level.txt
+[1.818s] reading manifest file 'navigate_interfaces.egg-info/SOURCES.txt'
+[1.819s] writing manifest file 'navigate_interfaces.egg-info/SOURCES.txt'
+[1.855s] [  5%] Built target ament_cmake_python_build_navigate_interfaces_egg
+[1.895s] [  5%] Built target navigate_interfaces__cpp
+[1.904s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.912s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.931s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.073s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_generator_c[0m
+[2.123s] [ 15%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigate_interfaces/action/detail/car_navigate__functions.c.o[0m
+[2.253s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_cpp[0m
+[2.270s] [ 17%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigate_interfaces/action/car_navigate__type_support.cpp.o[0m
+[2.311s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.321s] [ 20%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigate_interfaces/action/detail/car_navigate__type_support.cpp.o[0m
+[2.385s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.396s] [ 23%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigate_interfaces/action/detail/dds_fastrtps/car_navigate__type_support.cpp.o[0m
+[2.408s] [ 25%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigate_interfaces/srv/detail/give_position__functions.c.o[0m
+[2.461s] [ 28%] [32m[1mLinking C shared library libnavigate_interfaces__rosidl_generator_c.so[0m
+[2.498s] [ 28%] Built target navigate_interfaces__rosidl_generator_c
+[2.525s] [ 30%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigate_interfaces/srv/detail/give_position__type_support.cpp.o[0m
+[2.961s] [ 33%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigate_interfaces/srv/detail/dds_fastrtps/give_position__type_support.cpp.o[0m
+[3.081s] [ 35%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigate_interfaces/srv/give_position__type_support.cpp.o[0m
+[3.108s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.261s] [ 41%] [32m[1mLinking CXX shared library libnavigate_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.295s] [ 43%] [32m[1mLinking CXX shared library libnavigate_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.333s] [ 46%] [32m[1mLinking CXX shared library libnavigate_interfaces__rosidl_typesupport_cpp.so[0m
+[3.387s] [ 46%] Built target navigate_interfaces__rosidl_typesupport_introspection_cpp
+[3.397s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.416s] [ 48%] Built target navigate_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.424s] [ 48%] Built target navigate_interfaces__rosidl_typesupport_cpp
+[3.431s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.624s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.633s] [ 53%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigate_interfaces/action/detail/car_navigate__type_support_c.cpp.o[0m
+[3.639s] [ 56%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigate_interfaces/srv/detail/give_position__type_support_c.cpp.o[0m
+[3.708s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_c[0m
+[3.720s] [ 58%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigate_interfaces/action/car_navigate__type_support.cpp.o[0m
+[3.762s] [ 61%] [32mBuilding CXX object CMakeFiles/navigate_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigate_interfaces/srv/give_position__type_support.cpp.o[0m
+[3.792s] [ 64%] [32m[1mLinking CXX shared library libnavigate_interfaces__rosidl_typesupport_c.so[0m
+[3.829s] [ 64%] Built target navigate_interfaces__rosidl_typesupport_c
+[3.946s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_introspection_c[0m
+[3.957s] [ 66%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigate_interfaces/action/detail/car_navigate__type_support.c.o[0m
+[3.965s] [ 69%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigate_interfaces/srv/detail/give_position__type_support.c.o[0m
+[3.999s] [ 71%] [32m[1mLinking C shared library libnavigate_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.025s] [ 74%] [32m[1mLinking CXX shared library libnavigate_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.025s] [ 74%] Built target navigate_interfaces__rosidl_typesupport_introspection_c
+[4.091s] [ 74%] Built target navigate_interfaces__rosidl_typesupport_fastrtps_c
+[4.106s] [ 74%] Built target navigate_interfaces
+[4.122s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.738s] [ 76%] Built target navigate_interfaces__py
+[4.745s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_generator_py[0m
+[4.755s] [ 82%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigate_interfaces/srv/_give_position_s.c.o[0m
+[4.756s] [ 82%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigate_interfaces/action/_car_navigate_s.c.o[0m
+[4.900s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/navigate_interfaces/libnavigate_interfaces__rosidl_generator_py.so[0m
+[4.933s] [ 84%] Built target navigate_interfaces__rosidl_generator_py
+[4.944s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.944s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.952s] [35m[1mConsolidate compiler generated dependencies of target navigate_interfaces__rosidl_typesupport_c__pyext[0m
+[4.956s] [ 87%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.956s] [ 89%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.994s] [ 92%] [32mBuilding C object CMakeFiles/navigate_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.072s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.102s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.110s] [ 97%] Built target navigate_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.133s] [100%] [32m[1mLinking C shared library rosidl_generator_py/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.135s] [100%] Built target navigate_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.166s] [100%] Built target navigate_interfaces__rosidl_typesupport_c__pyext
+[5.175s] Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/dyj/learning_ws/build/navigate_interfaces -- -j4 -l4
+[5.236s] Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/dyj/learning_ws/build/navigate_interfaces
+[5.242s] -- Install configuration: ""
+[5.242s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigate_interfaces
+[5.243s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.243s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.244s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/give_position.h
+[5.244s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.245s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__functions.c
+[5.246s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__functions.h
+[5.247s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__struct.h
+[5.248s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__type_support.h
+[5.248s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.248s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/car_navigate.h
+[5.248s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.249s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__functions.h
+[5.249s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__functions.c
+[5.250s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__struct.h
+[5.250s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__type_support.h
+[5.250s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg
+[5.250s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.250s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/library_path.sh
+[5.251s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/library_path.dsv
+[5.251s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_generator_c.so
+[5.252s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_generator_c.so" to ""
+[5.252s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.252s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.252s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.252s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__rosidl_typesupport_fastrtps_c.h
+[5.252s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.253s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.253s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__rosidl_typesupport_fastrtps_c.h
+[5.253s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg
+[5.253s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.253s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.254s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.254s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.254s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.254s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.254s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__type_support.c
+[5.254s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__rosidl_typesupport_introspection_c.h
+[5.255s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.255s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.256s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__rosidl_typesupport_introspection_c.h
+[5.256s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__type_support.c
+[5.257s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg
+[5.257s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.257s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_introspection_c.so
+[5.257s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.257s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_c.so
+[5.257s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_c.so" to ""
+[5.257s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.257s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.257s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/give_position.hpp
+[5.257s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.258s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__traits.hpp
+[5.258s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__builder.hpp
+[5.258s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__struct.hpp
+[5.258s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.258s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.258s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__traits.hpp
+[5.259s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__builder.hpp
+[5.259s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__struct.hpp
+[5.259s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/car_navigate.hpp
+[5.259s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.259s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.259s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.259s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/dds_fastrtps
+[5.259s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__rosidl_typesupport_fastrtps_cpp.hpp
+[5.259s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.260s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/dds_fastrtps
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.260s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.260s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv
+[5.260s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail
+[5.260s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__type_support.cpp
+[5.260s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/srv/detail/give_position__rosidl_typesupport_introspection_cpp.hpp
+[5.261s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action
+[5.261s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail
+[5.261s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__type_support.cpp
+[5.261s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/include/navigate_interfaces/navigate_interfaces/action/detail/car_navigate__rosidl_typesupport_introspection_cpp.hpp
+[5.261s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.261s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.261s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_cpp.so
+[5.262s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.262s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/pythonpath.sh
+[5.262s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/pythonpath.dsv
+[5.262s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces-0.0.0-py3.10.egg-info
+[5.262s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.262s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.263s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.263s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.263s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces
+[5.263s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv
+[5.263s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv/_give_position_s.c
+[5.263s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv/_give_position.py
+[5.263s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv/__init__.py
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_c.c
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/libnavigate_interfaces__rosidl_generator_py.so
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.264s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action/_car_navigate_s.c
+[5.264s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action/_car_navigate.py
+[5.265s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action/__init__.py
+[5.265s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/_navigate_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.265s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/__init__.py
+[5.265s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.307s] Listing '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces'...
+[5.307s] Compiling '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/__init__.py'...
+[5.307s] Listing '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action'...
+[5.307s] Compiling '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action/__init__.py'...
+[5.308s] Compiling '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/action/_car_navigate.py'...
+[5.308s] Listing '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv'...
+[5.308s] Compiling '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv/__init__.py'...
+[5.308s] Compiling '/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/srv/_give_position.py'...
+[5.314s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.314s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.314s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.315s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.315s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.315s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/local/lib/python3.10/dist-packages/navigate_interfaces/navigate_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.315s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_generator_py.so
+[5.316s] -- Set runtime path of "/home/dyj/learning_ws/install/navigate_interfaces/lib/libnavigate_interfaces__rosidl_generator_py.so" to ""
+[5.316s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/action/CarNavigate.idl
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/srv/GivePosition.idl
+[5.316s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/action/CarNavigate.action
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/srv/GivePosition.srv
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/srv/GivePosition_Request.msg
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/srv/GivePosition_Response.msg
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/ament_index/resource_index/package_run_dependencies/navigate_interfaces
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/ament_index/resource_index/parent_prefix_path/navigate_interfaces
+[5.316s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/ament_prefix_path.sh
+[5.316s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/ament_prefix_path.dsv
+[5.319s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/path.sh
+[5.319s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/environment/path.dsv
+[5.319s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/local_setup.bash
+[5.319s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/local_setup.sh
+[5.319s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/local_setup.zsh
+[5.319s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/local_setup.dsv
+[5.319s] -- Installing: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.dsv
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/ament_index/resource_index/packages/navigate_interfaces
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_generator_cExport.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_cExport.cmake
+[5.320s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_generator_cppExport.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_cppExport.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.321s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_generator_pyExport.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/export_navigate_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfacesConfig.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/cmake/navigate_interfacesConfig-version.cmake
+[5.322s] -- Up-to-date: /home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.xml
+[5.329s] Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/dyj/learning_ws/build/navigate_interfaces

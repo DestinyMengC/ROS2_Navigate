@@ -1,0 +1,8 @@
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+ros2 launch car_navigate car_navigate_action.launch.py
+
+ros2 run car_navigate give_position_client 5.0 6.0
+
+ros2 run car_navigate car_navigate_client

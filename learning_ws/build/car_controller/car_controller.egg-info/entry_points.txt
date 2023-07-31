@@ -1,0 +1,8 @@
+[console_scripts]
+car_move_circle = car_controller.car_move_circle:main
+car_move_square_try_1 = car_controller.car_move_square_try_1:main
+car_move_straight = car_controller.car_move_straight:main
+car_navigate_one_position = car_controller.car_navigate_one_position:main
+car_navigate_tf_broadcaster = car_controller.car_navigate_tf_broadcaster:main
+target_position_tf_broadcaster = car_controller.target_position_tf_broadcaster:main
+

@@ -1,0 +1,38 @@
+[0.686s] Invoking command in '/home/dyj/learning_ws/src/learning_pkg_python': PYTHONPATH=/home/dyj/learning_ws/build/learning_pkg_python/prefix_override:/home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/dyj/learning_ws/build/learning_pkg_python/build install --record /home/dyj/learning_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[0.871s] running egg_info
+[0.871s] creating ../../build/learning_pkg_python/learning_pkg_python.egg-info
+[0.871s] writing ../../build/learning_pkg_python/learning_pkg_python.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../build/learning_pkg_python/learning_pkg_python.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/learning_pkg_python/learning_pkg_python.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../build/learning_pkg_python/learning_pkg_python.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/learning_pkg_python/learning_pkg_python.egg-info/top_level.txt
+[0.872s] writing manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.873s] reading manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.874s] creating /home/dyj/learning_ws/build/learning_pkg_python/build
+[0.874s] creating /home/dyj/learning_ws/build/learning_pkg_python/build/lib
+[0.874s] creating /home/dyj/learning_ws/build/learning_pkg_python/build/lib/learning_pkg_python
+[0.874s] copying learning_pkg_python/control_gezebo.py -> /home/dyj/learning_ws/build/learning_pkg_python/build/lib/learning_pkg_python
+[0.874s] copying learning_pkg_python/__init__.py -> /home/dyj/learning_ws/build/learning_pkg_python/build/lib/learning_pkg_python
+[0.874s] running install
+[0.875s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.875s]   warnings.warn(
+[0.875s] running install_lib
+[0.875s] creating /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[0.875s] copying /home/dyj/learning_ws/build/learning_pkg_python/build/lib/learning_pkg_python/control_gezebo.py -> /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[0.875s] copying /home/dyj/learning_ws/build/learning_pkg_python/build/lib/learning_pkg_python/__init__.py -> /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[0.876s] byte-compiling /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python/control_gezebo.py to control_gezebo.cpython-310.pyc
+[0.876s] byte-compiling /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python/__init__.py to __init__.cpython-310.pyc
+[0.876s] running install_data
+[0.877s] creating /home/dyj/learning_ws/install/learning_pkg_python/share/ament_index
+[0.877s] creating /home/dyj/learning_ws/install/learning_pkg_python/share/ament_index/resource_index
+[0.877s] creating /home/dyj/learning_ws/install/learning_pkg_python/share/ament_index/resource_index/packages
+[0.877s] copying resource/learning_pkg_python -> /home/dyj/learning_ws/install/learning_pkg_python/share/ament_index/resource_index/packages
+[0.877s] copying package.xml -> /home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python
+[0.877s] running install_egg_info
+[0.878s] Copying ../../build/learning_pkg_python/learning_pkg_python.egg-info to /home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python-0.0.0-py3.10.egg-info
+[0.879s] running install_scripts
+[0.895s] writing list of installed files to '/home/dyj/learning_ws/build/learning_pkg_python/install.log'
+[0.912s] Invoked command in '/home/dyj/learning_ws/src/learning_pkg_python' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/learning_pkg_python/prefix_override:/home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/dyj/learning_ws/build/learning_pkg_python/build install --record /home/dyj/learning_ws/build/learning_pkg_python/install.log --single-version-externally-managed

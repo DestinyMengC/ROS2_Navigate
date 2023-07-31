@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (-) JobUnselected: {'identifier': 'car_controller'}
+[0.000440] (-) JobUnselected: {'identifier': 'car_navigate'}
+[0.000460] (-) JobUnselected: {'identifier': 'learning_pkg_python'}
+[0.000474] (-) JobUnselected: {'identifier': 'navigate_interfaces'}
+[0.000501] (-) JobUnselected: {'identifier': 'wiki_example'}
+[0.000513] (-) EventReactorShutdown: {}

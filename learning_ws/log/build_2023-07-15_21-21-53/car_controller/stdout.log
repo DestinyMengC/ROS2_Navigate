@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/car_controller/car_controller.egg-info
+writing ../../build/car_controller/car_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_controller/car_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/car_controller/car_controller.egg-info/entry_points.txt
+writing requirements to ../../build/car_controller/car_controller.egg-info/requires.txt
+writing top-level names to ../../build/car_controller/car_controller.egg-info/top_level.txt
+writing manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_controller/car_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dyj/learning_ws/build/car_controller/build
+creating /home/dyj/learning_ws/build/car_controller/build/lib
+creating /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_move_square_try_2.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/try.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_change_direction_1.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_move_square_try_1.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_change_direction_2.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_move_square_try_3.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_move_straight.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/car_move_circle.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+copying car_controller/__init__.py -> /home/dyj/learning_ws/build/car_controller/build/lib/car_controller
+running install
+running install_lib
+creating /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_2.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/try.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_change_direction_1.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_1.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_change_direction_2.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_square_try_3.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_straight.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/car_move_circle.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+copying /home/dyj/learning_ws/build/car_controller/build/lib/car_controller/__init__.py -> /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_2.py to car_move_square_try_2.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/try.py to try.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_change_direction_1.py to car_change_direction_1.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_1.py to car_move_square_try_1.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_change_direction_2.py to car_change_direction_2.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_square_try_3.py to car_move_square_try_3.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_straight.py to car_move_straight.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/car_move_circle.py to car_move_circle.cpython-310.pyc
+byte-compiling /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dyj/learning_ws/install/car_controller/share/ament_index
+creating /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index
+creating /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index/packages
+copying resource/car_controller -> /home/dyj/learning_ws/install/car_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/dyj/learning_ws/install/car_controller/share/car_controller
+running install_egg_info
+Copying ../../build/car_controller/car_controller.egg-info to /home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages/car_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_move_square_try_1 script to /home/dyj/learning_ws/install/car_controller/lib/car_controller
+writing list of installed files to '/home/dyj/learning_ws/build/car_controller/install.log'

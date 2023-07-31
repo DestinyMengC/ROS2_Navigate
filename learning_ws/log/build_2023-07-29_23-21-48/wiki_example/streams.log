@@ -1,0 +1,25 @@
+[1.902s] Invoking command in '/home/dyj/learning_ws/src/wiki_example': PYTHONPATH=/home/dyj/learning_ws/build/wiki_example/prefix_override:/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wiki_example build --build-base /home/dyj/learning_ws/build/wiki_example/build install --record /home/dyj/learning_ws/build/wiki_example/install.log --single-version-externally-managed
+[2.318s] running egg_info
+[2.320s] writing ../../build/wiki_example/wiki_example.egg-info/PKG-INFO
+[2.320s] writing dependency_links to ../../build/wiki_example/wiki_example.egg-info/dependency_links.txt
+[2.320s] writing entry points to ../../build/wiki_example/wiki_example.egg-info/entry_points.txt
+[2.320s] writing requirements to ../../build/wiki_example/wiki_example.egg-info/requires.txt
+[2.320s] writing top-level names to ../../build/wiki_example/wiki_example.egg-info/top_level.txt
+[2.325s] package init file 'wiki_example/__init__.py' not found (or not a regular file)
+[2.333s] reading manifest file '../../build/wiki_example/wiki_example.egg-info/SOURCES.txt'
+[2.335s] writing manifest file '../../build/wiki_example/wiki_example.egg-info/SOURCES.txt'
+[2.337s] running build
+[2.337s] running build_py
+[2.338s] running install
+[2.339s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.339s]   warnings.warn(
+[2.341s] running install_lib
+[2.346s] warning: install_lib: '/home/dyj/learning_ws/build/wiki_example/build/lib' does not exist -- no Python modules to install
+[2.346s] 
+[2.346s] running install_data
+[2.351s] running install_egg_info
+[2.358s] removing '/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages/wiki_example-0.0.0-py3.10.egg-info' (and everything under it)
+[2.370s] Copying ../../build/wiki_example/wiki_example.egg-info to /home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages/wiki_example-0.0.0-py3.10.egg-info
+[2.376s] running install_scripts
+[2.436s] writing list of installed files to '/home/dyj/learning_ws/build/wiki_example/install.log'
+[2.482s] Invoked command in '/home/dyj/learning_ws/src/wiki_example' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/wiki_example/prefix_override:/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wiki_example build --build-base /home/dyj/learning_ws/build/wiki_example/build install --record /home/dyj/learning_ws/build/wiki_example/install.log --single-version-externally-managed

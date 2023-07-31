@@ -1,0 +1,350 @@
+[0.420s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.420s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f02691ee1d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0269a31fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0269a31fc0>>)
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dyj/learning_ws'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_controller' with type 'ros.ament_python' and name 'car_controller'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigate) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_navigate' with type 'ros.ament_python' and name 'car_navigate'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_interfaces) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigate_interfaces' with type 'ros.ament_cmake' and name 'navigate_interfaces'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/wiki_example) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wiki_example' with type 'ros.ament_python' and name 'wiki_example'
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dyj/learning_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/dyj/dev_ws/install
+[0.512s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'car_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyj/learning_ws/build/car_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyj/learning_ws/install/car_controller', 'merge_install': False, 'path': '/home/dyj/learning_ws/src/car_controller', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyj/learning_ws/build/learning_pkg_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyj/learning_ws/install/learning_pkg_python', 'merge_install': False, 'path': '/home/dyj/learning_ws/src/learning_pkg_python', 'symlink_install': False, 'test_result_base': None}
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'navigate_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'navigate_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyj/learning_ws/build/navigate_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyj/learning_ws/install/navigate_interfaces', 'merge_install': False, 'path': '/home/dyj/learning_ws/src/navigate_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'wiki_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'wiki_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyj/learning_ws/build/wiki_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyj/learning_ws/install/wiki_example', 'merge_install': False, 'path': '/home/dyj/learning_ws/src/wiki_example', 'symlink_install': False, 'test_result_base': None}
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'car_navigate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'car_navigate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyj/learning_ws/build/car_navigate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyj/learning_ws/install/car_navigate', 'merge_install': False, 'path': '/home/dyj/learning_ws/src/car_navigate', 'symlink_install': False, 'test_result_base': None}
+[0.579s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyj/learning_ws/src/navigate_interfaces' with build type 'ament_cmake'
+[0.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyj/learning_ws/src/navigate_interfaces'
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyj/learning_ws/src/car_controller' with build type 'ament_python'
+[0.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_controller', 'ament_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/ament_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/ament_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/ament_prefix_path.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.605s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyj/learning_ws/src/learning_pkg_python' with build type 'ament_python'
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'ament_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyj/learning_ws/src/wiki_example' with build type 'ament_python'
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiki_example', 'ament_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/ament_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/ament_prefix_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/ament_prefix_path.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/dyj/learning_ws/build/navigate_interfaces -- -j4 -l4
+[0.962s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyj/learning_ws/src/car_controller'
+[0.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyj/learning_ws/src/learning_pkg_python'
+[1.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.509s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyj/learning_ws/src/wiki_example'
+[1.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/dyj/learning_ws/build/navigate_interfaces -- -j4 -l4
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/dyj/learning_ws/build/navigate_interfaces
+[1.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigate_interfaces)
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyj/learning_ws/install/wiki_example:/home/dyj/learning_ws/install/car_navigate:/home/dyj/learning_ws/install/learning_pkg_python:/home/dyj/learning_ws/install/car_controller:/home/dyj/dev_ws/install/learning_urdf:/home/dyj/dev_ws/install/learning_topic:/home/dyj/dev_ws/install/learning_tf:/home/dyj/dev_ws/install/learning_service:/home/dyj/dev_ws/install/learning_qos:/home/dyj/dev_ws/install/learning_pkg_python:/home/dyj/dev_ws/install/learning_parameter:/home/dyj/dev_ws/install/learning_node:/home/dyj/dev_ws/install/learning_launch:/home/dyj/dev_ws/install/learning_action:/home/dyj/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/dyj/learning_ws/build/navigate_interfaces
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces' for CMake module files
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces' for CMake config files
+[1.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_interfaces', 'cmake_prefix_path')
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.dsv'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.sh'
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib'
+[1.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_interfaces', 'ld_library_path_lib')
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.sh'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/bin'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib/pkgconfig/navigate_interfaces.pc'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib/python3.10/site-packages'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/bin'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.sh'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.bash'
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.zsh'
+[1.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/navigate_interfaces/share/colcon-core/packages/navigate_interfaces)
+[2.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigate_interfaces)
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces' for CMake module files
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces' for CMake config files
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_interfaces', 'cmake_prefix_path')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/cmake_prefix_path.sh'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib'
+[2.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_interfaces', 'ld_library_path_lib')
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.ps1'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.dsv'
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/hook/ld_library_path_lib.sh'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/bin'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib/pkgconfig/navigate_interfaces.pc'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/lib/python3.10/site-packages'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/navigate_interfaces/bin'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.ps1'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.dsv'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.sh'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.bash'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/navigate_interfaces/share/navigate_interfaces/package.zsh'
+[2.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/navigate_interfaces/share/colcon-core/packages/navigate_interfaces)
+[2.037s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyj/learning_ws/src/car_navigate' with build type 'ament_python'
+[2.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigate', 'ament_prefix_path')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/ament_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/ament_prefix_path.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/ament_prefix_path.sh'
+[2.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.298s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyj/learning_ws/src/car_navigate'
+[2.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/src/car_controller': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed
+[2.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/src/wiki_example': PYTHONPATH=/home/dyj/learning_ws/build/wiki_example/prefix_override:/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wiki_example build --build-base /home/dyj/learning_ws/build/wiki_example/build install --record /home/dyj/learning_ws/build/wiki_example/install.log --single-version-externally-managed
+[2.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/src/learning_pkg_python': PYTHONPATH=/home/dyj/learning_ws/build/learning_pkg_python/prefix_override:/home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/dyj/learning_ws/build/learning_pkg_python/build install --record /home/dyj/learning_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller' for CMake module files
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller' for CMake config files
+[2.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/src/car_controller' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/car_controller/prefix_override:/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_controller build --build-base /home/dyj/learning_ws/build/car_controller/build install --record /home/dyj/learning_ws/build/car_controller/install.log --single-version-externally-managed
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller/lib'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller/bin'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller/lib/pkgconfig/car_controller.pc'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller/lib/python3.10/site-packages'
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_controller', 'pythonpath')
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/pythonpath.ps1'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/pythonpath.dsv'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_controller/share/car_controller/hook/pythonpath.sh'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_controller/bin'
+[2.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_controller)
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_controller/share/car_controller/package.ps1'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/car_controller/share/car_controller/package.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_controller/share/car_controller/package.sh'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_controller/share/car_controller/package.bash'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_controller/share/car_controller/package.zsh'
+[2.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/car_controller/share/colcon-core/packages/car_controller)
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example' for CMake module files
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example' for CMake config files
+[2.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/src/wiki_example' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/wiki_example/prefix_override:/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wiki_example build --build-base /home/dyj/learning_ws/build/wiki_example/build install --record /home/dyj/learning_ws/build/wiki_example/install.log --single-version-externally-managed
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example/lib'
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example/bin'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example/lib/pkgconfig/wiki_example.pc'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example/lib/python3.10/site-packages'
+[2.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiki_example', 'pythonpath')
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/pythonpath.ps1'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/pythonpath.dsv'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/hook/pythonpath.sh'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/wiki_example/bin'
+[2.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiki_example)
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/package.ps1'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/package.dsv'
+[2.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/package.sh'
+[2.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/package.bash'
+[2.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/wiki_example/share/wiki_example/package.zsh'
+[2.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/wiki_example/share/colcon-core/packages/wiki_example)
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python' for CMake module files
+[2.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/src/learning_pkg_python' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/learning_pkg_python/prefix_override:/home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/dyj/learning_ws/build/learning_pkg_python/build install --record /home/dyj/learning_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python' for CMake config files
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python/lib'
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python/bin'
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python/lib/pkgconfig/learning_pkg_python.pc'
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python/lib/python3.10/site-packages'
+[2.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'pythonpath')
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.ps1'
+[2.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.dsv'
+[2.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.sh'
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/learning_pkg_python/bin'
+[2.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_python)
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/package.ps1'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/package.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/package.sh'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/package.bash'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/learning_pkg_python/share/learning_pkg_python/package.zsh'
+[2.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/learning_pkg_python/share/colcon-core/packages/learning_pkg_python)
+[3.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyj/learning_ws/src/car_navigate': PYTHONPATH=/home/dyj/learning_ws/build/car_navigate/prefix_override:/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_navigate build --build-base /home/dyj/learning_ws/build/car_navigate/build install --record /home/dyj/learning_ws/build/car_navigate/install.log --single-version-externally-managed
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate' for CMake module files
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate' for CMake config files
+[3.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyj/learning_ws/src/car_navigate' returned '0': PYTHONPATH=/home/dyj/learning_ws/build/car_navigate/prefix_override:/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_navigate build --build-base /home/dyj/learning_ws/build/car_navigate/build install --record /home/dyj/learning_ws/build/car_navigate/install.log --single-version-externally-managed
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate/lib'
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate/bin'
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate/lib/pkgconfig/car_navigate.pc'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate/lib/python3.10/site-packages'
+[3.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigate', 'pythonpath')
+[3.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/pythonpath.ps1'
+[3.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/pythonpath.dsv'
+[3.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/hook/pythonpath.sh'
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/dyj/learning_ws/install/car_navigate/bin'
+[3.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigate)
+[3.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/package.ps1'
+[3.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/package.dsv'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/package.sh'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/package.bash'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyj/learning_ws/install/car_navigate/share/car_navigate/package.zsh'
+[3.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyj/learning_ws/install/car_navigate/share/colcon-core/packages/car_navigate)
+[3.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.369s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.369s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.369s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.442s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyj/learning_ws/install/local_setup.ps1'
+[3.445s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyj/learning_ws/install/_local_setup_util_ps1.py'
+[3.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyj/learning_ws/install/setup.ps1'
+[3.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyj/learning_ws/install/local_setup.sh'
+[3.449s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyj/learning_ws/install/_local_setup_util_sh.py'
+[3.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyj/learning_ws/install/setup.sh'
+[3.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyj/learning_ws/install/local_setup.bash'
+[3.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyj/learning_ws/install/setup.bash'
+[3.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyj/learning_ws/install/local_setup.zsh'
+[3.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyj/learning_ws/install/setup.zsh'

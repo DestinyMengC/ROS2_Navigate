@@ -1,0 +1,65 @@
+dyj@dyj-virtual-machine:~$ ros2 topic list
+/clock
+/cmd_vel
+/imu
+/joint_states
+/odom
+/parameter_events
+/performance_metrics
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+
+
+dyj@dyj-virtual-machine:~$ ros2 topic info /cmd_vel
+Type: geometry_msgs/msg/Twist
+Publisher count: 0
+Subscription count: 1
+
+
+dyj@dyj-virtual-machine:~$ ros2 interface show geometry_msgs/msg/Twist
+# This expresses velocity in free space broken into its linear and angular parts.
+
+Vector3  linear
+	float64 x
+	float64 y
+	float64 z
+Vector3  angular
+	float64 x
+	float64 y
+	float64 z
+
+
+dyj@dyj-virtual-machine:~$ ros2 topic info /tf
+Type: tf2_msgs/msg/TFMessage
+Publisher count: 2
+Subscription count: 0
+
+dyj@dyj-virtual-machine:~$ ros2 topic info /tf_static
+Type: tf2_msgs/msg/TFMessage
+Publisher count: 1
+Subscription count: 0
+
+
+dyj@dyj-virtual-machine:~$ ros2 interface show tf2_msgs/msg/TFMessage
+geometry_msgs/TransformStamped[] transforms
+	#
+	#
+	std_msgs/Header header
+		builtin_interfaces/Time stamp
+			int32 sec
+			uint32 nanosec
+		string frame_id
+	string child_frame_id
+	Transform transform
+		Vector3 translation
+			float64 x
+			float64 y
+			float64 z
+		Quaternion rotation
+			float64 x 0
+			float64 y 0
+			float64 z 0
+			float64 w 1

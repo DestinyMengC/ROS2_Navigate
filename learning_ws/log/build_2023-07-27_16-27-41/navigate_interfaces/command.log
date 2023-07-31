@@ -1,0 +1,2 @@
+Invoking command in '/home/dyj/learning_ws/build/navigate_interfaces': /usr/bin/cmake /home/dyj/learning_ws/src/navigate_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyj/learning_ws/install/navigate_interfaces
+Invoked command in '/home/dyj/learning_ws/build/navigate_interfaces' returned '1': /usr/bin/cmake /home/dyj/learning_ws/src/navigate_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyj/learning_ws/install/navigate_interfaces
