@@ -1,0 +1,23 @@
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+ros2 run rviz2 rviz2
+
+ros2 run mutipath_nav mutipath_server
+
+ros2 run mutipath_nav mutipath_client
+
+0.0 0.0 0.0 0.0 1.0 2.0 3.0 3.0 4.0
+0.0 1.0 2.0 3.0 3.0 3.0 3.0 4.0 4.0
+1 1 1 0 1 1 0 0 0
+1 2 2 0 2 2 0 0 0
+
+0.0 0.0 1.0 1.0
+0.0 1.0 1.0 2.0
+
+0.0 1.0 1.0 2.0
+0.0 0.0 1.0 1.0
+
+0.0 0.0 1.0
+0.0 1.0 1.0
+1 0 0
